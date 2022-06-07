@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const JobMenu = () => {
   return (
-    <>
+    <div className="job__menu">
       <h1 className="logo__name">
         Dev <span>Hire</span>{" "}
       </h1>
-      <div>
+      <div className="desktop__menu">
         <ul className="side__menu">
           <li>
             <Link to="/">
@@ -31,7 +31,7 @@ const JobMenu = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

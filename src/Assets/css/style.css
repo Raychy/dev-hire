@@ -187,3 +187,64 @@
           height: 160px;
      }
 }
+@media screen and (max-width:768px) {
+     .desktop__menu{
+          /* display: none; */
+     }
+     .container{
+          display: block  ;
+     }
+     .all__jobs__container{
+          grid-template-columns: 1fr 1fr ;
+     }
+     .col__one{
+          height: 6vh;
+     }
+     .card__bg__img {
+          width: 335px;
+         
+     }
+     .side__menu{
+          display: flex;
+          justify-content: space-between !important;
+          align-items: space-between;
+          column-gap: 20px !important;
+          
+     }
+     .side__menu li{
+          margin-left: 20px;
+     }
+     .job__menu{
+          display: flex;
+          margin-left: 20px;
+     }
+     .hire__dev{
+          font-size: 20px;
+     }
+     .fav__side__menu{
+     margin-top: 4px;
+ 
+}
+}
+@media screen and (max-width:411px){
+     .all__jobs__container{
+          grid-template-columns: 1fr ;
+     }
+     .card__bg__img {
+          width: 348px;
+         
+     }
+}
+@media screen and (max-width:375px){
+     .card__bg__img {
+          width: 310px;
+         
+     }
+     .job__menu{
+         
+          margin-left: 5px;
+     }
+     .side__menu li{
+          margin-left: 10px;
+     }
+}
