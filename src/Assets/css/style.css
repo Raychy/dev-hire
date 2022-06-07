@@ -143,9 +143,9 @@
      padding: 5px;
      width: 160px;
      height: 40px;
-     border:1.5px solid #8692A6;
+     border:1px solid #8692A6;
      color: #8692A6;
-     outline: 1.5px solid #8692A6;
+     outline: 1px solid #8692A6;
 
 }
 .details__section{
@@ -188,8 +188,11 @@
      }
 }
 @media screen and (max-width:768px) {
-     .desktop__menu{
-          /* display: none; */
+     .footer{
+          display: block !important;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          /* grid-template-columns: 1fr 1fr; */
      }
      .container{
           display: block  ;
@@ -265,5 +268,9 @@
 }
 .hire__dev{
      font-size: 18px;
+}
+.card__bg__img {
+     width: 300px;
+    
 }
 }
